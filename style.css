@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(ForeverOHIO_Zoom\ background_aerial.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: auto;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+}
+h1{
+    font-size: 400%;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+h2, p {
+    color: white;
+    text-indent: 10px; 
+}
+p {
+    font-size: 20px;
+    font-family: Arial;
+}
+table1 {
+    float: right; 
+}
+
+
+ul{
+ float: left;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+
+ul li{
+ list-style: disc;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 20px; 
+  text-align: center; 
+}
+ul li a{
+   text-decoration: none;
+   color: whitesmoke; 
+   font-family: Arial;
+   font-weight: bold;
+   transition: 0.4s ease-in-out;
+   text-align: center;
+}
+ul li a:hover{
+ color: rgb(5, 5, 5);  
+ text-align: center;
+}
+
+img{
+
+    border: 5px solid grey;
+    max-width: 80%;
+    height: auto;  
+}
+
+figcaption{
+    color: whitesmoke;
+}
+
+table, th, td {
+    background-color: whitesmoke;
+    border: 5px solid grey;
+    margin: auto;
+    width: auto;
+    border-collapse: collapse;
+    border-spacing: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+forms, h2{
+ width: 100%;
+ text-align: center;
+ font-size: 22px;
+ background-color: black; 
+ border-radius: 10px;
+ margin: 10px;
+ padding: 12px 20px;
+ box-sizing: border-box;
+ border-radius: 10px;
+ float: left;
+
+}
+
+.form{
+width: 250px;
+height: 380px;
+top: 20px;
+left: 870px;
+border-radius: 25px;
+padding: 25px;
+float: left;
+}
+
